@@ -9,7 +9,6 @@ project(iothub
 
 set(CMAKE_C_STANDARD 99)
 
-find_library ( LIB_VARSERVER varserver REQUIRED )
 find_library ( LIB_IOTHUB_CLIENT iothub_client REQUIRED )
 find_library ( LIB_IOTHUB_CLIENT_AMQP_TRANSPORT iothub_client_amqp_transport REQUIRED )
 find_library ( LIB_IOTHUB_CLIENT_AMQP_WS_TRANSPORT iothub_client_amqp_ws_transport REQUIRED )
@@ -55,7 +54,7 @@ target_link_libraries( ${PROJECT_NAME}
 	${LIB_UMOCK_C}
 	${LIB_RT}
 	${LIB_PTHREAD}
-	${LIB_VARSERVER}
+	varserver
 	${LIB_SSL}
 	${LIB_CRYPTO}
 	${LIB_CURL}
