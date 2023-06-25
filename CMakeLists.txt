@@ -15,7 +15,6 @@ find_library ( LIB_IOTHUB_CLIENT_AMQP_WS_TRANSPORT iothub_client_amqp_ws_transpo
 find_library ( LIB_IOTHUB_CLIENT_HTTP_TRANSPORT iothub_client_http_transport REQUIRED )
 find_library ( LIB_IOTHUB_CLIENT_MQTT_TRANSPORT iothub_client_mqtt_transport REQUIRED )
 find_library ( LIB_IOTHUB_CLIENT_MQTT_WS_TRANSPORT iothub_client_mqtt_ws_transport REQUIRED )
-find_library ( LIB_IOTHUB_SERVICE_CLIENT iothub_service_client REQUIRED )
 find_library ( LIB_SERIALIZER serializer REQUIRED )
 find_library ( LIB_UAMQP uamqp REQUIRED )
 find_library ( LIB_UHTTP uhttp REQUIRED )
