@@ -61,6 +61,9 @@ target_link_libraries( ${PROJECT_NAME}
 	${LIB_PARSON}
 	${LIB_UUID}
 	aziotsharedutil
+	prov_auth_client
+	hsm_security_client
+	utpm
 )
 
 install(TARGETS ${PROJECT_NAME}
